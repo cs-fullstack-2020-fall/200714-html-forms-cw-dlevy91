@@ -69,13 +69,13 @@ form{
 
 #acct {
     grid-column: 5/6;
-    grid-row: 10;
+    grid-row: 9;
     padding: 5%;
 }
 
 #already {
     grid-column: 5/7;
-    grid-row: 11;
+    grid-row: 10;
     color: gray;
     padding: 2%;
 }
