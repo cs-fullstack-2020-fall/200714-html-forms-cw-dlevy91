@@ -1,0 +1,113 @@
+body {  
+    background-color: blue;
+} 
+
+.container {
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(13,1fr);
+    border-radius: 5px;
+    margin: 3%;
+    left: 3%;
+    font-family: sans-serif;
+}
+
+form{
+    padding-left: 5%;
+}
+
+#welcome {
+    grid-column: 5/7;
+    grid-row: 3;
+}
+
+#text {
+    grid-column: 5/9;
+    grid-row: 4;
+    color: gray;
+    padding-right: 30%;
+}
+
+#first {
+    grid-column: 5/6;
+    grid-row: 5;
+    font-weight: bold;
+}
+
+#last {
+    grid-column: 6/7;
+    grid-row: 5;
+    font-weight: bold;
+}
+
+#email {
+    grid-column: 5/8;
+    grid-row: 6;
+    font-weight: bold;
+}
+
+#pass {
+    grid-column: 5/6;
+    grid-row: 7;
+    font-weight: bold;
+}
+
+#passconf {
+    grid-column: 6/7;
+    grid-row: 7;
+    font-weight: bold;
+}
+
+#check {
+    grid-column: 5/8;
+    grid-row: 8;
+    color: gray;
+}
+
+#acct {
+    grid-column: 5/6;
+    grid-row: 10;
+    padding: 5%;
+}
+
+#already {
+    grid-column: 5/7;
+    grid-row: 11;
+    color: gray;
+    padding: 2%;
+}
+
+#box {
+    background-color: salmon;
+    grid-column: 1/4;
+    grid-row: 1/14;
+    border-radius: 5px;
+    
+}
+
+input {
+    padding: 10px 20px;
+    background-color: whitesmoke;
+    margin: 9px;
+    border-radius: 5px;
+    border: 1px gray solid;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 3px 60px;
+    border: blue 1px solid;
+    font-weight: bolder;
+}
+
+#emailone {
+    width: 400px;
+}
+
+span {
+    color: blue;
+    text-decoration: underline blue;
+}
