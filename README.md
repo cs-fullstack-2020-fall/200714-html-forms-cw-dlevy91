@@ -1,5 +1,8 @@
 # 200714 Html Forms Graded Classwork
 
+## Score : 4/5
+Very well done! Super close match to the image and great grid implementation. You are missing some core requirements for a header and footer and that would change your grid implenentation some. Thanks for agreeing to share your solution with the class and for your comment the CSS!
+
 ## Assignment
 - Recreate `html_form.png`
 - Page background should be blue
